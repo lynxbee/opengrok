@@ -1,0 +1,3 @@
+01-Apr-2020 00:00:00.004 INFO [pool-1-thread-1] org.opengrok.suggest.Suggester.rebuild Rebuilding the following suggesters: [OpenGrok, hellogitworld]
+01-Apr-2020 00:00:01.726 INFO [pool-1-thread-1] org.opengrok.suggest.Suggester.shutdownAndAwaitTermination Suggesters for [OpenGrok, hellogitworld] were successfully rebuilt (took 1 second)
+01-Apr-2020 00:00:01.734 INFO [pool-1-thread-1] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT23H59M58.272S

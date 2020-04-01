@@ -1,0 +1,351 @@
+31-Mar-2020 09:47:45.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.53
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2020 10:01:39 UTC
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.53.0
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-42-generic
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Mar-2020 09:47:45.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/devlab/Desktop/opengrok/tomcat/conf/logging.properties
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2020 09:47:45.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/devlab/Desktop/opengrok/tomcat/temp/
+31-Mar-2020 09:47:45.857 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Mar-2020 09:47:46.354 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 09:47:46.391 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2020 09:47:46.425 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1688 ms
+31-Mar-2020 09:47:46.535 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2020 09:47:46.535 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.53
+31-Mar-2020 09:47:46.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager]
+31-Mar-2020 09:47:46.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager] has finished in [380] ms
+31-Mar-2020 09:47:46.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples]
+31-Mar-2020 09:47:47.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples] has finished in [161] ms
+31-Mar-2020 09:47:47.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs]
+31-Mar-2020 09:47:47.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs] has finished in [10] ms
+31-Mar-2020 09:47:47.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager]
+31-Mar-2020 09:47:47.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager] has finished in [12] ms
+31-Mar-2020 09:47:47.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT]
+31-Mar-2020 09:47:47.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT] has finished in [9] ms
+31-Mar-2020 09:47:47.136 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 09:47:47.143 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 717 ms
+31-Mar-2020 22:18:17.873 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source]
+31-Mar-2020 22:18:18.005 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source] has finished in [132] ms
+31-Mar-2020 22:19:46.979 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2020 22:19:46.979 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:19:46.986 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2020 22:19:47.118 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:19:47.121 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:20:01.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.53
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2020 10:01:39 UTC
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.53.0
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-42-generic
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:20:01.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/devlab/Desktop/opengrok/tomcat/conf/logging.properties
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/devlab/Desktop/opengrok/tomcat/temp/
+31-Mar-2020 22:20:01.569 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Mar-2020 22:20:01.947 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:20:01.996 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2020 22:20:02.039 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 986 ms
+31-Mar-2020 22:20:02.083 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2020 22:20:02.083 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.53
+31-Mar-2020 22:20:02.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source]
+31-Mar-2020 22:20:02.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source] has finished in [370] ms
+31-Mar-2020 22:20:02.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager]
+31-Mar-2020 22:20:02.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager] has finished in [43] ms
+31-Mar-2020 22:20:02.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples]
+31-Mar-2020 22:20:02.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples] has finished in [279] ms
+31-Mar-2020 22:20:02.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs]
+31-Mar-2020 22:20:02.826 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs] has finished in [10] ms
+31-Mar-2020 22:20:02.826 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager]
+31-Mar-2020 22:20:02.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager] has finished in [15] ms
+31-Mar-2020 22:20:02.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT]
+31-Mar-2020 22:20:02.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT] has finished in [30] ms
+31-Mar-2020 22:20:02.873 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:20:02.880 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 841 ms
+31-Mar-2020 22:20:25.828 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2020 22:20:25.829 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:20:25.836 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2020 22:20:25.852 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:20:25.857 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:21:03.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.53
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2020 10:01:39 UTC
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.53.0
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-42-generic
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+31-Mar-2020 22:21:03.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/devlab/Desktop/opengrok/tomcat/conf/logging.properties
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2020 22:21:03.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2020 22:21:03.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:21:03.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:21:03.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/devlab/Desktop/opengrok/tomcat/temp/
+31-Mar-2020 22:21:03.245 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Mar-2020 22:21:03.299 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:21:03.305 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2020 22:21:03.330 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 323 ms
+31-Mar-2020 22:21:03.347 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2020 22:21:03.347 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.53
+31-Mar-2020 22:21:03.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source]
+31-Mar-2020 22:21:03.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/source] has finished in [233] ms
+31-Mar-2020 22:21:03.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager]
+31-Mar-2020 22:21:03.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager] has finished in [26] ms
+31-Mar-2020 22:21:03.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples]
+31-Mar-2020 22:21:03.831 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples] has finished in [219] ms
+31-Mar-2020 22:21:03.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs]
+31-Mar-2020 22:21:03.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs] has finished in [17] ms
+31-Mar-2020 22:21:03.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager]
+31-Mar-2020 22:21:03.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager] has finished in [17] ms
+31-Mar-2020 22:21:03.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT]
+31-Mar-2020 22:21:03.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT] has finished in [17] ms
+31-Mar-2020 22:21:03.888 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:21:03.899 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 569 ms
+31-Mar-2020 22:26:23.993 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/source]
+31-Mar-2020 22:26:24.003 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/devlab/Desktop/opengrok/tomcat/webapps/source.war]
+31-Mar-2020 22:26:24.004 WARNING [localhost-startStop-2] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-Mar-2020 22:26:26.072 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2020 22:26:26.072 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:26:26.080 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2020 22:26:26.080 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWARs Error waiting for multi-thread deployment of WAR files to complete
+	java.lang.InterruptedException
+		at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:404)
+		at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:762)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:27.361 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2020 22:26:27.417 INFO [localhost-startStop-2] org.opengrok.web.WebappListener.contextInitialized Starting webapp with version 1.3.11 (77b66697a02b046a259a7c6620f8ba968bd4d899)
+31-Mar-2020 22:26:27.417 INFO [localhost-startStop-2] org.opengrok.indexer.configuration.Configuration.read Reading configuration from /var/opengrok/etc/configuration.xml
+31-Mar-2020 22:26:27.417 WARNING [localhost-startStop-2] org.opengrok.web.WebappListener.contextInitialized Configuration error. Failed to read config file: 
+	java.io.FileNotFoundException: /var/opengrok/etc/configuration.xml (No such file or directory)
+		at java.io.FileInputStream.open0(Native Method)
+		at java.io.FileInputStream.open(FileInputStream.java:195)
+		at java.io.FileInputStream.<init>(FileInputStream.java:138)
+		at org.opengrok.indexer.configuration.Configuration.read(Configuration.java:1308)
+		at org.opengrok.indexer.configuration.RuntimeEnvironment.readConfiguration(RuntimeEnvironment.java:1457)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:74)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:27.425 WARNING [localhost-startStop-2] org.opengrok.indexer.framework.PluginFramework.reload Plugin directory not found or not readable: null. All requests allowed.
+31-Mar-2020 22:26:27.426 INFO [localhost-startStop-2] org.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opengrok.indexer.util.StatisticsUtils.loadStatistics(StatisticsUtils.java:87)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:93)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:27.471 INFO [localhost-startStop-2] org.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opengrok.indexer.util.StatisticsUtils.loadStatistics(StatisticsUtils.java:87)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:28.005 INFO [Thread-6] org.opengrok.suggest.Suggester.init Initializing suggester
+31-Mar-2020 22:26:28.069 INFO [Thread-6] org.opengrok.suggest.Suggester.shutdownAndAwaitTermination Suggester successfully initialized (took 0 seconds)
+31-Mar-2020 22:26:28.105 INFO [Thread-6] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT1H33M31.924S
+31-Mar-2020 22:26:28.414 INFO [localhost-startStop-2] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.0.17.Final
+31-Mar-2020 22:26:30.139 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/devlab/Desktop/opengrok/tomcat/webapps/source.war] has finished in [6,136] ms
+31-Mar-2020 22:26:30.160 INFO [localhost-startStop-2] org.opengrok.indexer.configuration.WatchDogService.stop Watchdog stoped
+31-Mar-2020 22:26:30.162 SEVERE [localhost-startStop-2] org.opengrok.web.WebappListener.contextDestroyed Could not save statistics into a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opengrok.indexer.util.StatisticsUtils.saveStatistics(StatisticsUtils.java:49)
+		at org.opengrok.web.WebappListener.contextDestroyed(WebappListener.java:127)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4748)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5405)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1428)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1417)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:30.169 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:26:30.170 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:26:33.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.53
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2020 10:01:39 UTC
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.53.0
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-42-generic
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/devlab/Desktop/opengrok/tomcat/conf/logging.properties
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2020 22:26:33.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/devlab/Desktop/opengrok/tomcat
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/devlab/Desktop/opengrok/tomcat/temp/
+31-Mar-2020 22:26:33.844 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+31-Mar-2020 22:26:33.897 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:26:33.903 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2020 22:26:33.940 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 356 ms
+31-Mar-2020 22:26:33.970 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2020 22:26:33.970 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.53
+31-Mar-2020 22:26:34.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/devlab/Desktop/opengrok/tomcat/webapps/source.war]
+31-Mar-2020 22:26:34.015 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-Mar-2020 22:26:35.867 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2020 22:26:35.993 INFO [localhost-startStop-1] org.opengrok.web.WebappListener.contextInitialized Starting webapp with version 1.3.11 (77b66697a02b046a259a7c6620f8ba968bd4d899)
+31-Mar-2020 22:26:35.994 INFO [localhost-startStop-1] org.opengrok.indexer.configuration.Configuration.read Reading configuration from /var/opengrok/etc/configuration.xml
+31-Mar-2020 22:26:35.994 WARNING [localhost-startStop-1] org.opengrok.web.WebappListener.contextInitialized Configuration error. Failed to read config file: 
+	java.io.FileNotFoundException: /var/opengrok/etc/configuration.xml (No such file or directory)
+		at java.io.FileInputStream.open0(Native Method)
+		at java.io.FileInputStream.open(FileInputStream.java:195)
+		at java.io.FileInputStream.<init>(FileInputStream.java:138)
+		at org.opengrok.indexer.configuration.Configuration.read(Configuration.java:1308)
+		at org.opengrok.indexer.configuration.RuntimeEnvironment.readConfiguration(RuntimeEnvironment.java:1457)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:74)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:36.002 WARNING [localhost-startStop-1] org.opengrok.indexer.framework.PluginFramework.reload Plugin directory not found or not readable: null. All requests allowed.
+31-Mar-2020 22:26:36.003 INFO [localhost-startStop-1] org.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opengrok.indexer.util.StatisticsUtils.loadStatistics(StatisticsUtils.java:87)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:93)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:36.006 INFO [localhost-startStop-1] org.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opengrok.indexer.util.StatisticsUtils.loadStatistics(StatisticsUtils.java:87)
+		at org.opengrok.web.WebappListener.contextInitialized(WebappListener.java:106)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4701)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+31-Mar-2020 22:26:36.323 INFO [Thread-5] org.opengrok.suggest.Suggester.init Initializing suggester
+31-Mar-2020 22:26:36.355 INFO [Thread-5] org.opengrok.suggest.Suggester.shutdownAndAwaitTermination Suggester successfully initialized (took 0 seconds)
+31-Mar-2020 22:26:36.455 INFO [Thread-5] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT1H33M23.579S
+31-Mar-2020 22:26:36.710 INFO [localhost-startStop-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.0.17.Final
+31-Mar-2020 22:26:36.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/devlab/Desktop/opengrok/tomcat/webapps/source.war] has finished in [2,984] ms
+31-Mar-2020 22:26:36.988 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager]
+31-Mar-2020 22:26:37.013 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/host-manager] has finished in [25] ms
+31-Mar-2020 22:26:37.013 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples]
+31-Mar-2020 22:26:37.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/examples] has finished in [98] ms
+31-Mar-2020 22:26:37.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs]
+31-Mar-2020 22:26:37.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/docs] has finished in [9] ms
+31-Mar-2020 22:26:37.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager]
+31-Mar-2020 22:26:37.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/manager] has finished in [13] ms
+31-Mar-2020 22:26:37.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT]
+31-Mar-2020 22:26:37.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/devlab/Desktop/opengrok/tomcat/webapps/ROOT] has finished in [8] ms
+31-Mar-2020 22:26:37.144 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2020 22:26:37.155 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3214 ms
+31-Mar-2020 22:26:41.615 INFO [http-nio-8080-exec-2] org.opengrok.indexer.configuration.RuntimeEnvironment.applyConfig Configuration updated
+31-Mar-2020 22:26:41.615 INFO [http-nio-8080-exec-2] org.opengrok.indexer.configuration.WatchDogService.stop Watchdog stoped
+31-Mar-2020 22:26:41.616 WARNING [http-nio-8080-exec-2] org.opengrok.indexer.framework.PluginFramework.reload Plugin directory not found or not readable: null. All requests allowed.
+31-Mar-2020 22:26:41.620 INFO [Thread-7] org.opengrok.suggest.Suggester.init No index directories found, exiting...
+31-Mar-2020 22:26:41.621 INFO [Thread-7] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT1H33M18.38S
+31-Mar-2020 22:48:25.517 WARNING [http-nio-8080-exec-7] org.opengrok.web.api.v1.controller.ProjectsController.markIndexed cannot find project hellogitworld to mark as indexed
+31-Mar-2020 22:48:58.420 WARNING [http-nio-8080-exec-9] org.opengrok.web.api.v1.controller.ProjectsController.markIndexed cannot find project OpenGrok to mark as indexed
+31-Mar-2020 22:49:04.183 INFO [http-nio-8080-exec-10] org.opengrok.indexer.util.Statistics.report done invalidating 2 repositories (took 515 ms)
+31-Mar-2020 22:49:04.187 INFO [http-nio-8080-exec-10] org.opengrok.indexer.configuration.RuntimeEnvironment.applyConfig Configuration updated
+31-Mar-2020 22:49:04.187 INFO [http-nio-8080-exec-10] org.opengrok.indexer.configuration.WatchDogService.stop Watchdog stoped
+31-Mar-2020 22:49:04.187 WARNING [http-nio-8080-exec-10] org.opengrok.indexer.framework.PluginFramework.reload Plugin directory not found or not readable: /home/devlab/Desktop/opengrok/opengrok/data/../plugins. All requests allowed.
+31-Mar-2020 22:49:04.188 INFO [Thread-334] org.opengrok.suggest.Suggester.init Initializing suggester
+31-Mar-2020 22:49:06.097 INFO [Thread-334] org.opengrok.suggest.Suggester.shutdownAndAwaitTermination Suggester successfully initialized (took 1 second)
+31-Mar-2020 22:49:06.101 INFO [Thread-334] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT1H10M53.901S
+01-Apr-2020 00:00:00.004 INFO [pool-1-thread-1] org.opengrok.suggest.Suggester.rebuild Rebuilding the following suggesters: [OpenGrok, hellogitworld]
+01-Apr-2020 00:00:01.726 INFO [pool-1-thread-1] org.opengrok.suggest.Suggester.shutdownAndAwaitTermination Suggesters for [OpenGrok, hellogitworld] were successfully rebuilt (took 1 second)
+01-Apr-2020 00:00:01.734 INFO [pool-1-thread-1] org.opengrok.web.api.v1.suggester.provider.service.impl.SuggesterServiceImpl.scheduleRebuild Scheduling suggester rebuild in PT23H59M58.272S

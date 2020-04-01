@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_242" class="java.beans.XMLDecoder">
+ <object class="org.opengrok.indexer.configuration.Configuration" id="Configuration0">
+  <void property="cmds">
+   <object class="java.util.Collections" method="unmodifiableMap">
+    <object class="java.util.HashMap">
+     <void method="put">
+      <string>org.opengrok.indexer.history.ClearCaseRepository</string>
+      <string>cleartool</string>
+     </void>
+     <void method="put">
+      <string>org.opengrok.indexer.history.PerforceRepository</string>
+      <string>p4</string>
+     </void>
+     <void method="put">
+      <string>org.opengrok.indexer.history.GitRepository</string>
+      <string>git</string>
+     </void>
+    </object>
+   </object>
+  </void>
+  <void property="ctags">
+   <string>/snap/bin/ctags</string>
+  </void>
+  <void property="dataRoot">
+   <string>/home/devlab/Desktop/opengrok/opengrok/data</string>
+  </void>
+  <void id="IgnoredNames0" property="ignoredNames">
+   <void id="IgnoredDirs0" property="ignoredDirs">
+    <void property="items">
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.hg</string>
+     </void>
+     <void method="add">
+      <string>.repo</string>
+     </void>
+     <void method="add">
+      <string>.bk</string>
+     </void>
+     <void method="add">
+      <string>.bzr</string>
+     </void>
+     <void method="add">
+      <string>.svn</string>
+     </void>
+     <void method="add">
+      <string>SCCS</string>
+     </void>
+     <void method="add">
+      <string>.razor</string>
+     </void>
+     <void method="add">
+      <string>RCS</string>
+     </void>
+     <void method="add">
+      <string>CVS</string>
+     </void>
+     <void method="add">
+      <string>CVSROOT</string>
+     </void>
+    </void>
+   </void>
+   <void id="IgnoredFiles0" property="ignoredFiles">
+    <void property="items">
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.hgtags</string>
+     </void>
+     <void method="add">
+      <string>.hgignore</string>
+     </void>
+     <void method="add">
+      <string>.cvsignore</string>
+     </void>
+     <void method="add">
+      <string>.p4config</string>
+     </void>
+    </void>
+   </void>
+  </void>
+  <void property="projects">
+   <void method="put">
+    <string>OpenGrok</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyEnabled">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>OpenGrok</string>
+     </void>
+     <void property="path">
+      <string>/OpenGrok</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>hellogitworld</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyEnabled">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>hellogitworld</string>
+     </void>
+     <void property="path">
+      <string>/hellogitworld</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="projectsEnabled">
+   <boolean>true</boolean>
+  </void>
+  <void property="repositories">
+   <void method="add">
+    <object class="org.opengrok.indexer.history.RepositoryInfo">
+     <void property="branch">
+      <string>master</string>
+     </void>
+     <void property="currentVersion">
+      <string>2020-03-27 01:13 +0530 77b66697a0 Vladimir Kotal 1.3.11</string>
+     </void>
+     <void property="datePatterns">
+      <array class="java.lang.String" length="1">
+       <void index="0">
+        <string>yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX</string>
+       </void>
+      </array>
+     </void>
+     <void property="directoryNameRelative">
+      <string>/OpenGrok</string>
+     </void>
+     <void property="parent">
+      <string>https://github.com/OpenGrok/OpenGrok</string>
+     </void>
+     <void property="type">
+      <string>git</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="org.opengrok.indexer.history.RepositoryInfo">
+     <void property="branch">
+      <string>master</string>
+     </void>
+     <void property="currentVersion">
+      <string>2014-11-07 23:57 +0530 ef7bebf Jordan McCullough Fix groupId after package refactor</string>
+     </void>
+     <void property="datePatterns">
+      <array class="java.lang.String" length="1">
+       <void index="0">
+        <string>yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX</string>
+       </void>
+      </array>
+     </void>
+     <void property="directoryNameRelative">
+      <string>/hellogitworld</string>
+     </void>
+     <void property="parent">
+      <string>https://github.com/githubtraining/hellogitworld.git</string>
+     </void>
+     <void property="type">
+      <string>git</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="sourceRoot">
+   <string>/home/devlab/Desktop/opengrok/opengrok/src</string>
+  </void>
+  <void property="tagsEnabled">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>

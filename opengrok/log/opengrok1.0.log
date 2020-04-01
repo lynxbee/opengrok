@@ -1,0 +1,113 @@
+2020-03-31 22:32:48.758+0530 FINE t1 Executor.registerErrorHandler: Installing default uncaught exception handler
+2020-03-31 22:32:48.833+0530 INFO t1 Indexer.parseOptions: Indexer options: [-c, /usr/bin/ctags, -s, /home/devlab/Desktop/opengrok/opengrok/src, -d, /home/devlab/Desktop/opengrok/opengrok/data, -H, -P, -S, -G, -W, /home/devlab/Desktop/opengrok/opengrok/etc/configuration.xml, -U, http://localhost:8080/source]
+2020-03-31 22:32:48.917+0530 FINER t1 ReflectionHelper$2.run: Unable to load class org.osgi.framework.BundleReference using the current class loader.
+java.lang.ClassNotFoundException: org.osgi.framework.BundleReference
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:419)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:352)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.glassfish.jersey.internal.util.ReflectionHelper$2.run(ReflectionHelper.java:244)
+	at org.glassfish.jersey.internal.util.ReflectionHelper$2.run(ReflectionHelper.java:229)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.glassfish.jersey.internal.util.ReflectionHelper.<clinit>(ReflectionHelper.java:1470)
+	at org.glassfish.jersey.internal.ServiceFinder.<clinit>(ServiceFinder.java:142)
+	at org.glassfish.jersey.client.ClientConfig$State.<init>(ClientConfig.java:142)
+	at org.glassfish.jersey.client.ClientConfig.<init>(ClientConfig.java:496)
+	at org.glassfish.jersey.client.JerseyClientBuilder.<init>(JerseyClientBuilder.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at javax.ws.rs.client.FactoryFinder.newInstance(FactoryFinder.java:90)
+	at javax.ws.rs.client.FactoryFinder.find(FactoryFinder.java:185)
+	at javax.ws.rs.client.ClientBuilder.newBuilder(ClientBuilder.java:67)
+	at javax.ws.rs.client.ClientBuilder.newClient(ClientBuilder.java:94)
+	at org.opengrok.indexer.index.IndexerUtil.enableProjects(IndexerUtil.java:53)
+	at org.opengrok.indexer.index.Indexer.main(Indexer.java:320)
+
+2020-03-31 22:32:48.919+0530 CONFIG t1 ServiceFinder.<clinit>: Running in a non-OSGi environment
+2020-03-31 22:32:48.974+0530 FINEST t1 ServiceFinder$LazyObjectIterator.next: Loading next object: org.glassfish.jersey.inject.hk2.Hk2InjectionManagerFactory
+2020-03-31 22:32:49.000+0530 FINER t1 Logger.debug: Created ServiceLocator ServiceLocatorImpl(__HK2_Generated_0,0,1535634836)
+2020-03-31 22:32:49.063+0530 FINE t1 AbstractHk2InjectionManager.<init>: Clearing Jersey HK2 caches. Service cache size: 3, reflection cache size: 20.
+2020-03-31 22:32:49.114+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.logging.LoggingFeatureAutoDiscoverable
+2020-03-31 22:32:49.115+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.internal.config.ExternalPropertiesAutoDiscoverable
+2020-03-31 22:32:49.116+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.server.filter.internal.ServerFiltersAutoDiscoverable
+2020-03-31 22:32:49.117+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.jackson.internal.JacksonAutoDiscoverable
+2020-03-31 22:32:49.127+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.server.validation.internal.ValidationAutoDiscoverable
+2020-03-31 22:32:49.128+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable
+2020-03-31 22:32:49.128+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.server.internal.monitoring.MonitoringAutodiscoverable
+2020-03-31 22:32:49.129+0530 FINEST t1 ServiceFinder$LazyClassIterator.next: Loading next class: org.glassfish.jersey.jaxb.internal.JaxbAutoDiscoverable
+2020-03-31 22:32:49.163+0530 FINER t1 SystemPropertiesConfigurationModel.getProperties: System properties configuration provider not allowed
+2020-03-31 22:32:49.169+0530 FINE t1 ClientExecutorProvidersConfigurator.lookupManagedExecutorService: null
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.client.ClientExecutorProvidersConfigurator.lookupManagedExecutorService(ClientExecutorProvidersConfigurator.java:152)
+	at org.glassfish.jersey.client.ClientExecutorProvidersConfigurator.<clinit>(ClientExecutorProvidersConfigurator.java:49)
+	at org.glassfish.jersey.client.ClientConfig$State.initRuntime(ClientConfig.java:442)
+	at org.glassfish.jersey.internal.util.collection.Values$LazyValueImpl.get(Values.java:317)
+	at org.glassfish.jersey.client.ClientConfig.getRuntime(ClientConfig.java:807)
+	at org.glassfish.jersey.client.ClientRequest.getClientRuntime(ClientRequest.java:219)
+	at org.glassfish.jersey.client.ClientRequest.getInjectionManager(ClientRequest.java:610)
+	at org.glassfish.jersey.client.JerseyWebTarget.onBuilder(JerseyWebTarget.java:364)
+	at org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:192)
+	at org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:36)
+	at org.opengrok.indexer.index.IndexerUtil.enableProjects(IndexerUtil.java:59)
+	at org.opengrok.indexer.index.Indexer.main(Indexer.java:320)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:350)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	... 16 more
+
+2020-03-31 22:32:49.173+0530 FINE t1 ClientExecutorProvidersConfigurator.lookupManagedScheduledExecutorService: null
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.client.ClientExecutorProvidersConfigurator.lookupManagedScheduledExecutorService(ClientExecutorProvidersConfigurator.java:174)
+	at org.glassfish.jersey.client.ClientExecutorProvidersConfigurator.init(ClientExecutorProvidersConfigurator.java:124)
+	at org.glassfish.jersey.client.ClientConfig$State.initRuntime(ClientConfig.java:447)
+	at org.glassfish.jersey.internal.util.collection.Values$LazyValueImpl.get(Values.java:317)
+	at org.glassfish.jersey.client.ClientConfig.getRuntime(ClientConfig.java:807)
+	at org.glassfish.jersey.client.ClientRequest.getClientRuntime(ClientRequest.java:219)
+	at org.glassfish.jersey.client.ClientRequest.getInjectionManager(ClientRequest.java:610)
+	at org.glassfish.jersey.client.JerseyWebTarget.onBuilder(JerseyWebTarget.java:364)
+	at org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:192)
+	at org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:36)
+	at org.opengrok.indexer.index.IndexerUtil.enableProjects(IndexerUtil.java:59)
+	at org.opengrok.indexer.index.Indexer.main(Indexer.java:320)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:350)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	... 16 more
+
+2020-03-31 22:32:49.178+0530 CONFIG t1 ExtendedLogger.config: Selected ExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientAsyncExecutorProvider] to be used for injection of executor qualified by [org.glassfish.jersey.client.ClientAsyncExecutor] annotation.
+2020-03-31 22:32:49.179+0530 CONFIG t1 ExtendedLogger.config: Selected ScheduledExecutorServiceProvider implementation [org.glassfish.jersey.client.DefaultClientBackgroundSchedulerProvider] to be used for injection of scheduler qualified by [org.glassfish.jersey.client.ClientBackgroundScheduler] annotation.
+2020-03-31 22:32:49.229+0530 CONFIG t1 HttpUrlConnector.<init>: Restricted headers are not enabled using [sun.net.http.allowRestrictedHeaders] system property (setting only takes effect on connections created after the property has been set/changed).
+2020-03-31 22:32:49.250+0530 FINEST t1 HttpURLConnection.plainConnect0: ProxySelector Request for http://localhost:8080/source/api/v1/configuration/projectsEnabled
+2020-03-31 22:32:49.253+0530 FINEST t1 HttpURLConnection.plainConnect0: Proxy used: DIRECT
+2020-03-31 22:32:49.254+0530 FINE t1 HttpURLConnection.writeRequests: sun.net.www.MessageHeader@10959ece5 pairs: {GET /source/api/v1/configuration/projectsEnabled HTTP/1.1: null}{User-Agent: Jersey/2.30.1 (HttpUrlConnection 1.8.0_242)}{Host: localhost:8080}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+2020-03-31 22:32:49.259+0530 FINEST t1 HttpClient.logFinest: KeepAlive stream used: http://localhost:8080/source/api/v1/configuration/projectsEnabled
+2020-03-31 22:32:49.260+0530 FINE t1 HttpURLConnection.getInputStream0: sun.net.www.MessageHeader@3a6bb9bf6 pairs: {null: HTTP/1.1 200}{Content-Type: application/json}{Content-Length: 4}{Date: Tue, 31 Mar 2020 17:02:49 GMT}{Keep-Alive: timeout=20}{Connection: keep-alive}
+2020-03-31 22:32:49.273+0530 FINEST t1 ExtendedLogger.debugLog: [DEBUG] Released scope instance Instance{id=ab8258a5-b7c6-4f64-81e9-84d87a1c58d4, referenceCounter=0, store size=0} on thread main
+2020-03-31 22:32:49.281+0530 INFO t1 Indexer.main: Indexer version 1.3.11 (77b66697a02b046a259a7c6620f8ba968bd4d899) running on Java 1.8.0_242
+2020-03-31 22:32:49.283+0530 FINE t1 Executor.exec: Executing command [/usr/bin/ctags --version] in directory /home/devlab/Desktop/opengrok with environment: {PATH=/home/devlab/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/devlab/devlab/flutter/ubuntu/devlopment/flutter/bin:/home/devlab/devlab/flutter/enginedev/depot_tools:/home/devlab/devlab/android_ndk/android-ndk-r20, XAUTHORITY=/run/user/1000/gdm/Xauthority, XMODIFIERS=@im=ibus, GDMSESSION=ubuntu, XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path, TEXTDOMAINDIR=/usr/share/locale/, GTK_IM_MODULE=ibus, DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path, XDG_CURRENT_DESKTOP=ubuntu:GNOME, SSH_AGENT_PID=1729, COLORTERM=truecolor, QT4_IM_MODULE=xim, SESSION_MANAGER=local/devlab:@/tmp/.ICE-unix/1633,unix/devlab:/tmp/.ICE-unix/1633, USERNAME=devlab, LOGNAME=devlab, PWD=/home/devlab/Desktop/opengrok, IM_CONFIG_PHASE=2, LANGUAGE=en_IN:en, GJS_DEBUG_TOPICS=JS ERROR;JS LOG, LESSOPEN=| /usr/bin/lesspipe %s, SHELL=/bin/bash, OLDPWD=/home/devlab/Desktop/opengrok/opengrok, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, GTK_MODULES=gail:atk-bridge, GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/8b4ec494_f1f2_4faf_9af2_86ba57910d7d, CLUTTER_IM_MODULE=xim, TEXTDOMAIN=im-config, XDG_SESSION_DESKTOP=ubuntu, LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, SHLVL=2, LESSCLOSE=/usr/bin/lesspipe %s %s, CATALINA_TMPDIR=/home/devlab/Desktop/opengrok/tomcat/temp/, QT_IM_MODULE=ibus, TERM=xterm-256color, XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg, GNOME_TERMINAL_SERVICE=:1.302, LANG=en_IN, XDG_SESSION_TYPE=x11, XDG_SESSION_ID=2, CATALINA_BASE=/home/devlab/Desktop/opengrok/tomcat, DISPLAY=:0, _=/usr/bin/java, OPENGROK_TOMCAT_BASE=/home/devlab/Desktop/opengrok/tomcat, CATALINA_HOME=/home/devlab/Desktop/opengrok/tomcat, GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1, DESKTOP_SESSION=ubuntu, USER=devlab, XDG_MENU_PREFIX=gnome-, OPENGROK_INSTANCE_BASE=/home/devlab/Desktop/opengrok/opengrok/src/, VTE_VERSION=5202, WINDOWPATH=2, QT_ACCESSIBILITY=1, GJS_DEBUG_OUTPUT=stderr, XDG_SEAT=seat0, SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, GNOME_SHELL_SESSION_MODE=ubuntu, XDG_RUNTIME_DIR=/run/user/1000, XDG_VTNR=2, OPENGROK_WAR_TARGET_TOMCAT=/home/devlab/Desktop/opengrok/tomcat/webapps/, HOME=/home/devlab}
+2020-03-31 22:32:49.289+0530 FINE t1 Executor.exec: Finished command [/usr/bin/ctags --version] in directory /home/devlab/Desktop/opengrok with exit code 0
+2020-03-31 22:32:49.290+0530 SEVERE t1 CtagsUtil.validate: Error: No Universal Ctags found !
+(tried running /usr/bin/ctags)
+Please use the -c option to specify path to a Universal Ctags program.
+Or set it in Java system property org.opengrok.indexer.analysis.Ctags
+2020-03-31 22:32:49.290+0530 SEVERE t1 Indexer.main: Exception running indexer
+org.opengrok.indexer.index.IndexerException: Didn't find Universal Ctags
+	at org.opengrok.indexer.index.Indexer.prepareIndexer(Indexer.java:931)
+	at org.opengrok.indexer.index.Indexer.main(Indexer.java:340)
+

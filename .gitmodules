@@ -1,0 +1,3 @@
+[submodule "OpenGrok"]
+	path = OpenGrok
+	url = /home/devlab/Desktop/opengrok/opengrok/src/OpenGrok
